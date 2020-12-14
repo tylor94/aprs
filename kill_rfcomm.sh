@@ -1,1 +1,0 @@
-../btserial/bin/kill_rfcomm.sh
