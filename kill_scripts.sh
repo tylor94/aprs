@@ -1,0 +1,1 @@
+../btserial/bin/kill_scripts.sh
