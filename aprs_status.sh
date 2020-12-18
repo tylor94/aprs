@@ -13,7 +13,7 @@ printf ">" ;\
 # Time
 printf "$(date +%I):$(date +%M)$(date +%p) " ;\
 # Battery
-printf "12.1V " ;\
+printf "errV " ;\
 # CPU temp
 #printf "$cputcC " ;\
 \
