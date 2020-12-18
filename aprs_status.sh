@@ -10,20 +10,12 @@ newline="\n"
 
 printf ">" ;\
 \
-#printf "Time:" ;\
-printf "$(date +%H):$(date +%M) " ;\
+# Time
+printf "$(date +%I):$(date +%M)$(date +%p) " ;\
+# Battery
+printf "12.1V " ;\
+# CPU temp
+#printf "$cputcC " ;\
 \
-#printf "Bat:" ;\
-printf "err'V " ;\
-\
-#printf "CPU:" ;\
-printf "$cputc'C " ;\
-\
-# !!! These can only be pulled from OBD with ecu on, useless with ecu off.
-#printf "Intk:" ;\
-#printf "err'F " ;\
-#\
-#printf "Eng:" ;\
-#printf "err'F " ;\
-\
+# This newline must be here or Aprx will fail to execute this script.
 printf "$newline" ;\
