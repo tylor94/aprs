@@ -11,11 +11,19 @@ newline="\n"
 printf ">" ;\
 \
 # Time
-printf "$(date +%I):$(date +%M) $(date +%p) / " ;\
+printf "$(date +%I):$(date +%M)" ;\
+printf "$(date +%p)" ;\
+printf " " ;\
+\
 # Battery
-printf "err V " ;\
+printf "err" ;\
+printf "V" ;\
+printf " " ;\
+\
 # CPU temp
-#printf "$cputcC " ;\
+#printf "$cputc" ;\
+#printf "C" ;\
+#printf " " ;\
 \
 # This newline must be here or Aprx will fail to execute this script.
 printf "$newline" ;\
