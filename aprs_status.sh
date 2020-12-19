@@ -11,9 +11,9 @@ newline="\n"
 printf ">" ;\
 \
 # Time
-printf "$(date +%I):$(date +%M)$(date +%p) " ;\
+printf "$(date +%I):$(date +%M) $(date +%p) / " ;\
 # Battery
-printf "errV " ;\
+printf "err V " ;\
 # CPU temp
 #printf "$cputcC " ;\
 \
