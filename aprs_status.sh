@@ -13,12 +13,13 @@ printf ">" ;\
 # Time
 printf "$(date +%I):$(date +%M)" ;\
 printf "$(date +%p)" ;\
-printf " " ;\
+printf "/" ;\
+#printf " " ;\
 \
 # Battery
 printf "err" ;\
 printf "V" ;\
-printf " " ;\
+#printf " " ;\
 \
 # CPU temp
 #printf "$cputc" ;\
