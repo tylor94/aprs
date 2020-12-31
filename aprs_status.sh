@@ -13,13 +13,13 @@ printf ">" ;\
 \
 # Time
 printf "$(date +%I):$(date +%M)" ;\
-printf "$(date +%p)" ;\
+printf "*$(date +%p)" ;\
 printf "$delimiter" ;\
 #printf " " ;\
 \
 # Battery
 printf "err" ;\
-printf "V" ;\
+printf "*V" ;\
 printf "$delimiter" ;\
 #printf " " ;\
 \
