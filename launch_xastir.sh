@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Pull in variable files
-source $1
-
 # Formatting variables
 padding="echo"
 newline="\n"
