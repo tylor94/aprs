@@ -22,7 +22,7 @@ while true; do
 	xastir
 	wait
 	# Wait before restarting loop
-	sleep 5
+	sleep 15
 	wait
 # Break loop into separate process
 done &\
