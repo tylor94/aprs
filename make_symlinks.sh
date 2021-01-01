@@ -11,4 +11,4 @@ ln -s /etc/default/gpsd ./ ;\
 ln -s /etc/ntp.conf ./ ;\
 ln -s ~/btserial/bin/kill_rfcomm.sh ./ ;\
 ln -s ~/btserial/bin/kill_scripts.sh ./ ;\
-ln -s ~/btserial/bin/summary.sh ./ ;\
+ln -s ~/btserial/bin/status.sh ./ ;\
