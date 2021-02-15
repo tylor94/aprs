@@ -8,13 +8,12 @@ load=$(cat /proc/loadavg | cut -d " " -f 3) # 15 min load
 # Formatting variables
 padding="echo"
 newline="\n"
-delimiter=" | "
+delimiter="/"
 
 printf ">" ;\
 \
 # Time
-printf "$(date +%I):$(date +%M)" ;\
-printf " $(date +%p)" ;\
+printf "@$(date +%d%H%M)" ;\
 printf "$delimiter" ;\
 #printf " " ;\
 \
